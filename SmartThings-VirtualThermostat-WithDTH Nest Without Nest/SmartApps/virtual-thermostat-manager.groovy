@@ -1,11 +1,11 @@
 definition(
     name: "Virtual Thermostat Manager",
-    namespace: "piratemedia/smartthings",
-    author: "Eliot S.",
+    namespace: "SmartApps",
+    author: "Tudorel I.",
     description: "Control a heater in conjunction with any temperature sensor like a SmartSense Multi, to create a thermostat device in SmartThings",
     category: "Green Living",
-    iconUrl: "https://raw.githubusercontent.com/eliotstocker/SmartThings-VirtualThermostat-WithDTH/master/logo-small.png",
-    iconX2Url: "https://raw.githubusercontent.com/eliotstocker/SmartThings-VirtualThermostat-WithDTH/master/logo.png",
+    iconUrl: "https://raw.githubusercontent.com/tiancu1980/SmartThings/SmartThings-VirtualThermostat-WithDTH Nest Without Nest/logo-small.png",
+    iconX2Url: "https://raw.githubusercontent.com/tiancu1980/SmartThings/SmartThings-VirtualThermostat-WithDTH Nest Without Nest/logo.png",
 	singleInstance: true
 )
 
@@ -17,7 +17,7 @@ preferences {
         section("Devices") {
         }
         section {
-            app(name: "thermostats", appName: "Virtual Thermostat With Device", namespace: "piratemedia/smartthings", title: "New Thermostat", multiple: true)
+            app(name: "thermostats", appName: "Virtual Thermostat With Device", namespace: "SmartApps", title: "New Thermostat", multiple: true)
         }
     }
 }
