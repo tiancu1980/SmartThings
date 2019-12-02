@@ -1,5 +1,5 @@
 metadata {
-	definition (name: "Virtual Thermostat Device", namespace: "piratemedia/smartthings", author: "Eliot S.") {
+	definition (name: "Virtual Thermostat Device", namespace: "SmartThings", author: "Tudorel I.") {
 		capability "Actuator"
 		capability "Refresh"
 		capability "Sensor"
@@ -66,7 +66,7 @@ metadata {
 			}
 		}
 		valueTile("temp2", "device.temperature", width: 2, height: 2, decoration: "flat") {
-			state("default", label:'${currentValue}°', icon:"https://raw.githubusercontent.com/eliotstocker/SmartThings-VirtualThermostat-WithDTH/master/device.png",
+			state("default", label:'${currentValue}°', icon:"https://raw.githubusercontent.com/tiancu1980/SmartThings/SmartThings-VirtualThermostat-WithDTH Nest Without Nest/device.png",
 					backgroundColors: getTempColors(), canChangeIcon: true)
 		}
 		standardTile("thermostatMode", "device.thermostatMode", width:2, height:2, decoration: "flat") {
