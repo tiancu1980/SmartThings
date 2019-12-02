@@ -1,5 +1,5 @@
 metadata {
-	definition (name: "Virtual Thermostat Device", namespace: "DeviceHandler/", author: "Tudorel I.") {
+	definition (name: "Virtual Thermostat Device", namespace: "DeviceHandler", author: "Tudorel I.") {
 		capability "Actuator"
 		capability "Refresh"
 		capability "Sensor"
